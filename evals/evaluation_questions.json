@@ -1,0 +1,162 @@
+[
+  {
+    "id": "N01",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "distinction",
+    "question": "How does NASA distinguish product verification from product validation, and what question does each answer?",
+    "expected_answer": "Verification demonstrates that a product complies with its specifications or requirements (\"Did we build the product right?\"). Validation determines whether it satisfies stakeholder needs and its intended use (\"Did we build the right product?\")."
+  },
+  {
+    "id": "N02",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "enumeration",
+    "question": "What are the four system design processes described in NASA’s Systems Engineering Handbook?",
+    "expected_answer": "Stakeholder Expectations Definition, Technical Requirements Definition, Logical Decomposition, and Design Solution Definition. They are interrelated, iterative and recursive."
+  },
+  {
+    "id": "N03",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "enumeration",
+    "question": "What five elements make up configuration management in NASA’s Systems Engineering Handbook?",
+    "expected_answer": "Configuration planning and management; configuration identification; configuration change management; configuration status accounting; and configuration verification."
+  },
+  {
+    "id": "N04",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "multistep",
+    "question": "How do NASA spaceflight project phases Pre-Phase A through Phase F progress from early concept studies to closeout?",
+    "expected_answer": "Pre-Phase A: concept studies; A: concept and technology development; B: preliminary design and technology completion; C: final design and fabrication; D: system assembly, integration, testing and launch; E: operations and sustainment; F: closeout."
+  },
+  {
+    "id": "N05",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "comparison",
+    "question": "How does NASA distinguish an engineering unit from a prototype unit?",
+    "expected_answer": "An engineering unit is a high-fidelity test article closely resembling the final product and used to gain confidence in its design and environmental performance. A prototype unit demonstrates representative form, fit and function in an operationally relevant setting or scale."
+  },
+  {
+    "id": "N06",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "false_premise",
+    "question": "A NASA system requirement must specify the exact implementation method. Is that correct, and what qualities should a well-written requirement have?",
+    "expected_answer": "No. A requirement should generally state what is needed rather than how to implement it. Good requirements are clear and unambiguous, verifiable/testable, feasible, consistent and traceable; implementation details are generally avoided unless explicitly justified."
+  },
+  {
+    "id": "N07",
+    "answerability": "answerable",
+    "source_document": "NASA",
+    "test_type": "precision",
+    "question": "Which four mission-execution domains does NASA identify when discussing risks of performance shortfalls?",
+    "expected_answer": "Safety, technical performance, cost and schedule. Risk refers to potential future shortfalls against stated requirements."
+  },
+  {
+    "id": "F01",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "enumeration",
+    "question": "What four general conditions must an employee satisfy to qualify for FMLA leave?",
+    "expected_answer": "The employee must work for a covered employer; have at least 12 months of employment with that employer; have at least 1,250 hours of service during the preceding 12 months; and work at a location with at least 50 employees employed by that employer within 75 miles."
+  },
+  {
+    "id": "F02",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "distinction",
+    "question": "Are public agencies and elementary or secondary schools covered by the FMLA only if they employ at least 50 people? How does that differ from employee eligibility?",
+    "expected_answer": "No. Public agencies and elementary/secondary schools are covered employers regardless of their employee count. Individual employees must still satisfy the applicable employee eligibility tests, including the 12-month, 1,250-hour and 50-employees-within-75-miles requirements."
+  },
+  {
+    "id": "F03",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "conditional",
+    "question": "What job and benefit protections generally apply when an employee returns from FMLA leave, and what is one important limitation?",
+    "expected_answer": "Generally, return to the same job or an equivalent one with equivalent pay, benefits and other terms and conditions; previously held benefits cannot require requalification. An employee is not protected against actions that would have occurred irrespective of leave (for example, a genuine layoff); limited key-employee exceptions also exist."
+  },
+  {
+    "id": "F04",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "qualification",
+    "question": "Must the 12 months of employment required for FMLA eligibility be consecutive? Can seasonal or part-time work count?",
+    "expected_answer": "No, the 12 months generally need not be consecutive. Part-time, temporary and seasonal employment can count toward the employment-duration requirement; special rules apply to long breaks in service."
+  },
+  {
+    "id": "F05",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "multistep",
+    "question": "How do the standard 12-workweek FMLA leave entitlement and the 26-workweek military caregiver entitlement differ?",
+    "expected_answer": "Eligible employees generally may take up to 12 workweeks in a 12-month period for specified qualifying family, medical or military-exigency reasons. Eligible military caregivers may take up to 26 workweeks in a single 12-month period to care for a covered servicemember with a serious injury or illness; the combined entitlement during that single period is capped at 26 workweeks."
+  },
+  {
+    "id": "F06",
+    "answerability": "answerable",
+    "source_document": "FMLA",
+    "test_type": "false_premise",
+    "question": "Does the FMLA automatically guarantee 12 weeks of paid leave to every employee, regardless of tenure?",
+    "expected_answer": "No. FMLA leave is generally unpaid, job-protected leave for eligible employees of covered employers, for qualifying reasons. Eligibility conditions apply; qualifying paid leave may run concurrently under applicable substitution rules, but the FMLA does not itself promise 12 weeks of paid leave to every employee."
+  },
+  {
+    "id": "O01",
+    "answerability": "answerable",
+    "source_document": "OSHA",
+    "test_type": "policy_application",
+    "question": "According to OSHA’s Workers’ Rights booklet, can an employer satisfy hazard-control responsibilities merely by handing out masks and gloves?",
+    "expected_answer": "No. Employers must find and correct hazards and first try feasible changes to working conditions, such as substituting safer chemicals, enclosing hazardous processes or improving ventilation, rather than relying solely on personal protective equipment."
+  },
+  {
+    "id": "O02",
+    "answerability": "answerable",
+    "source_document": "OSHA",
+    "test_type": "numbers",
+    "question": "Under OSHA’s Workers’ Rights booklet, how soon must employers report a work-related fatality, an inpatient hospitalization, an amputation or the loss of an eye to OSHA?",
+    "expected_answer": "A work-related fatality must be reported within 8 hours. A work-related inpatient hospitalization, amputation or loss of an eye must be reported within 24 hours."
+  },
+  {
+    "id": "O03",
+    "answerability": "answerable",
+    "source_document": "OSHA",
+    "test_type": "qualification",
+    "question": "Does OSHA’s Workers’ Rights booklet say that every item of protective equipment must be provided free of charge, without any exceptions?",
+    "expected_answer": "No. The booklet says employers provide respirators and other needed safety equipment in almost all cases free of charge. The qualifier matters; an absolute claim that every item is always free overstates the booklet."
+  },
+  {
+    "id": "O04",
+    "answerability": "answerable",
+    "source_document": "OSHA",
+    "test_type": "conditional",
+    "question": "Under what conditions may a worker have a protected right to refuse dangerous work under OSHA’s Workers’ Rights booklet?",
+    "expected_answer": "There must be a genuine, reasonably perceived danger of death or serious physical harm; the refusal must be in good faith with no reasonable alternative; there must be insufficient time for OSHA to inspect; and, when possible, the worker must first seek correction from the employer. Filing a complaint alone does not automatically authorize walking off the job."
+  },
+  {
+    "id": "O05",
+    "answerability": "answerable",
+    "source_document": "OSHA",
+    "test_type": "rights",
+    "question": "What rights does OSHA’s Workers’ Rights booklet describe regarding workplace hazard complaints, inspections and retaliation?",
+    "expected_answer": "Workers can submit confidential safety complaints and request inspections, participate in OSHA inspections and speak privately with an inspector, and are protected against retaliation for exercising OSH Act rights; they may file a retaliation complaint if punished."
+  },
+  {
+    "id": "X01",
+    "answerability": "answerable",
+    "source_document": "NASA+OSHA",
+    "test_type": "cross_document",
+    "question": "How do NASA’s approach to technical risk and OSHA’s instructions on workplace hazards differ in scope, even though both encourage proactive risk reduction?",
+    "expected_answer": "NASA discusses potential future shortfalls in mission requirements across safety, technical, cost and schedule dimensions and manages them as part of systems engineering. OSHA focuses on employers’ legal responsibilities to identify and correct workplace safety and health hazards, preferring feasible controls before reliance on PPE. Both emphasize identifying risks before harm or failure, but their purposes and obligations differ."
+  },
+  {
+    "id": "A01",
+    "answerability": "partial",
+    "source_document": "FMLA+unavailable company policy",
+    "test_type": "partial_abstention",
+    "question": "What are the four FMLA eligibility requirements, and what is our company’s exact gym membership reimbursement limit for 2026?",
+    "expected_answer": "Give the four general FMLA eligibility requirements: covered employer; 12 months of employment; 1,250 hours of service in the prior 12 months; 50 employees within 75 miles of the worksite. Explicitly state that the company-specific 2026 gym reimbursement limit cannot be determined from the provided documents; do not invent an amount."
+  }
+]

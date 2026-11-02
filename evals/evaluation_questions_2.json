@@ -1,0 +1,275 @@
+[
+  {
+    "id": "N08",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "concept_distinction",
+    "question": "How does NASA distinguish a Concept of Operations (ConOps) from an Operations Concept?",
+    "expected_answer": "A ConOps is an early, high-level description of how the overall system will be used to meet stakeholder expectations, typically from an operational and time-sequenced perspective; it helps shape requirements and architecture. An Operations Concept focuses on how the flight and ground systems work together operationally, such as capturing, returning, processing and archiving mission data.",
+    "expected_facts": [
+      "ConOps high-level early view",
+      "ConOps meets stakeholder expectations and shapes requirements/architecture",
+      "Operations Concept focuses on flight and ground system operations"
+    ],
+    "source_hint": "Section 4.1, Concept of Operations vs. Operations Concept"
+  },
+  {
+    "id": "N09",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "precise_definition",
+    "question": "What are Technical Performance Measures (TPMs) used for in NASA systems engineering?",
+    "expected_answer": "TPMs track how measured technical parameters actually perform against planned or anticipated values over time. They show progress toward system requirements and provide early warning of deficiencies that may need investigation or corrective action.",
+    "expected_facts": [
+      "Compare actual parameter achievement with expected values over time",
+      "Track progress toward requirements",
+      "Flag deficiencies for evaluation and corrective action"
+    ],
+    "source_hint": "Appendix B, Technical Performance Measures"
+  },
+  {
+    "id": "N10",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "relationship_tracking",
+    "question": "What does bidirectional requirements traceability mean in NASA’s handbook, and which directions must a requirement be traceable?",
+    "expected_answer": "Bidirectional traceability allows a requirement or expectation to be traced upward to its parent or source expectation/requirement and downward to the child requirements or expectations allocated from it. NASA also maintains links across design and verification artifacts as requirements evolve.",
+    "expected_facts": [
+      "Upward trace to source/parent",
+      "Downward trace to allocated children"
+    ],
+    "source_hint": "Section 6.2, Requirements Management"
+  },
+  {
+    "id": "N11",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "specific_examples",
+    "question": "What is the purpose of interface control documentation in NASA systems engineering, and name at least two types of interface documents identified by the handbook.",
+    "expected_answer": "It captures and controls information about system interfaces and approved interface changes. Examples include an Interface Requirements Document (IRD), Interface Control Document or Drawing (ICD), Interface Definition Document (IDD), and Interface Control Plan (ICP).",
+    "expected_facts": [
+      "Capture interface information and approved changes",
+      "Name at least two valid types: IRD, ICD, IDD, ICP"
+    ],
+    "source_hint": "Section 6.3, Interface Management"
+  },
+  {
+    "id": "N12",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "enumeration",
+    "question": "Which four methods does NASA identify for verifying that a product meets its requirements?",
+    "expected_answer": "Test, analysis, demonstration and inspection. The appropriate method is selected for the requirement being verified.",
+    "expected_facts": [
+      "Test",
+      "Analysis",
+      "Demonstration",
+      "Inspection"
+    ],
+    "source_hint": "Section 5.3 / Appendix C, Verification Method"
+  },
+  {
+    "id": "N13",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "decision_support",
+    "question": "What is the purpose of NASA’s Decision Analysis Process, and what kinds of trade-offs or uncertainties does it help assess?",
+    "expected_answer": "It supports structured selection among alternatives using defined criteria, models and evidence. It helps decision makers assess technical, cost and schedule issues, trade-offs and uncertainties, including expert judgments and preferences where appropriate.",
+    "expected_facts": [
+      "Structured evaluation of alternatives",
+      "Technical cost and schedule considerations",
+      "Consider uncertainty and decision criteria"
+    ],
+    "source_hint": "Section 6.8, Decision Analysis"
+  },
+  {
+    "id": "N14",
+    "answerability": "answerable",
+    "source_document": "nasa_systems_engineering_handbook_0.pdf",
+    "test_type": "false_premise",
+    "question": "Does NASA’s Systems Engineering Handbook itself impose binding directives on every project, or does it serve a different role?",
+    "expected_answer": "It provides general, top-level guidance and systems engineering best practices; the handbook explicitly states it is not a directive. Applicable NASA procedural requirements and project-specific directives govern obligations.",
+    "expected_facts": [
+      "Not itself a directive",
+      "Guidance/companion to applicable NASA procedural requirements"
+    ],
+    "source_hint": "Preface"
+  },
+  {
+    "id": "F07",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "conditional_deadlines",
+    "question": "For foreseeable FMLA leave due to an expected birth or planned medical treatment, when should the employee notify the employer? What if advance notice is not practicable or the need is unforeseeable?",
+    "expected_answer": "When foreseeable and practicable, the employee normally gives at least 30 days advance notice. If that is not practicable, or the leave is unforeseeable, notice is given as soon as practicable under the circumstances, generally following usual employer notice procedures absent unusual circumstances.",
+    "expected_facts": [
+      "30 days in advance when foreseeable and practicable",
+      "As soon as practicable otherwise",
+      "Relevant employer notice procedures"
+    ],
+    "source_hint": "Chapter 2, Employee Notice"
+  },
+  {
+    "id": "F08",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "distinguish_notices",
+    "question": "How is an FMLA Eligibility Notice different from a Designation Notice, and when is each generally due?",
+    "expected_answer": "The Eligibility Notice tells the employee whether they meet eligibility rules and must give a reason if ineligible; it is generally due within five business days of the leave request or learning it may qualify, absent extenuating circumstances. A written Designation Notice tells whether the specific leave counts as FMLA leave, generally within five business days once the employer has enough information, absent extenuating circumstances.",
+    "expected_facts": [
+      "Eligibility Notice describes employee eligibility",
+      "Designation Notice determines whether leave is FMLA-designated",
+      "Generally five-business-day timing for each from different triggers"
+    ],
+    "source_hint": "Chapters 2 and 6, Eligibility Notice and Designation Notice"
+  },
+  {
+    "id": "F09",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "qualified_deadline",
+    "question": "An employer requests medical certification for potentially FMLA-qualifying leave. How long does the employee generally have to provide it, and when might extra time be allowed?",
+    "expected_answer": "The employee generally has 15 calendar days after the employer requests certification, unless the employer permits more time or the employee cannot meet the deadline despite diligent good-faith efforts under the circumstances.",
+    "expected_facts": [
+      "15 calendar days generally",
+      "Exceptions for longer employer allowance or diligent good-faith inability"
+    ],
+    "source_hint": "Chapter 4, Medical Certification"
+  },
+  {
+    "id": "F10",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "definition_plus_procedure",
+    "question": "What is the distinction between an incomplete and an insufficient FMLA medical certification, and how much time must the employee normally receive to correct it?",
+    "expected_answer": "Incomplete means one or more required entries have not been completed; insufficient means the information is vague, ambiguous or nonresponsive. The employer must notify the employee in writing of the missing information and allow at least seven calendar days to correct deficiencies, with more time if good-faith efforts make the deadline impracticable.",
+    "expected_facts": [
+      "Incomplete means missing required entries",
+      "Insufficient means vague/ambiguous/nonresponsive",
+      "Written notice of deficiencies",
+      "At least seven calendar days to cure, subject to good-faith exception"
+    ],
+    "source_hint": "Chapter 4, Incomplete or Insufficient Medical Certification"
+  },
+  {
+    "id": "F11",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "conditional_scheduling",
+    "question": "When FMLA leave is needed intermittently for planned medical treatment, what effort must an employee make when scheduling the treatment?",
+    "expected_answer": "The employee must make a reasonable effort to schedule planned treatment so it does not unduly disrupt the employer’s operations, subject to the health care provider’s approval and the medical need for the treatment.",
+    "expected_facts": [
+      "Reasonable effort to avoid undue disruption",
+      "Subject to approval of health care provider"
+    ],
+    "source_hint": "Chapter 6, Rules for Scheduling and Taking FMLA Leave"
+  },
+  {
+    "id": "F12",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "exact_retention",
+    "question": "For how long must employers preserve records required under the FMLA, according to the Employer’s Guide?",
+    "expected_answer": "Employers must keep the required FMLA records for at least three years and make them available to authorized Department of Labor representatives when requested.",
+    "expected_facts": [
+      "At least three years"
+    ],
+    "source_hint": "Chapter 6, Recordkeeping Requirements and Other Laws"
+  },
+  {
+    "id": "F13",
+    "answerability": "answerable",
+    "source_document": "employerguide.pdf",
+    "test_type": "conditional_policy",
+    "question": "Under what circumstances may an employer require a fitness-for-duty certification after FMLA leave, and what extra notice is needed if essential job functions must be addressed?",
+    "expected_answer": "An employer may require it under a uniformly applied policy for similarly situated employees returning from leave for their own serious health condition. If certification must address essential job functions, the employer must say so in the Designation Notice and provide a list of those functions; other limits apply.",
+    "expected_facts": [
+      "Uniformly applied policy for employee’s own serious health condition",
+      "Notify in designation notice if essential functions must be addressed",
+      "Provide list of essential functions"
+    ],
+    "source_hint": "Chapter 6, Fitness-for-Duty Certification"
+  },
+  {
+    "id": "O06",
+    "answerability": "answerable",
+    "source_document": "OSHA3021.pdf",
+    "test_type": "jurisdictional_exception",
+    "question": "Does Federal OSHA directly cover all state and local government workers? Explain the role of OSHA-approved State Plans.",
+    "expected_answer": "No. State and local government workers are not directly covered by Federal OSHA; they receive OSHA protection through OSHA-approved State Plans, which are required to cover these public-sector workers.",
+    "expected_facts": [
+      "Federal OSHA does not directly cover state/local government workers",
+      "Approved State Plans cover them"
+    ],
+    "source_hint": "Who Does OSHA Cover / State and Local Government Workers"
+  },
+  {
+    "id": "O07",
+    "answerability": "answerable",
+    "source_document": "OSHA3021.pdf",
+    "test_type": "worker_information_rights",
+    "question": "According to OSHA’s Workers’ Rights booklet, in what language must hazard training be provided, and name two types of workplace information workers may access.",
+    "expected_answer": "Hazard training must use a language and vocabulary workers understand. Examples of accessible information include records of work-related injuries and illnesses, workplace hazard monitoring/test results, and workers’ workplace medical records.",
+    "expected_facts": [
+      "Training in understandable language and vocabulary",
+      "At least two of injury/illness records, monitoring results, workplace medical records"
+    ],
+    "source_hint": "Workers’ Rights under the OSH Act"
+  },
+  {
+    "id": "O08",
+    "answerability": "answerable",
+    "source_document": "OSHA3021.pdf",
+    "test_type": "procedure_after_decision",
+    "question": "What recourse does OSHA’s Workers’ Rights booklet describe if OSHA decides not to inspect a reported workplace hazard, or conducts an inspection but issues no citation?",
+    "expected_answer": "If OSHA decides not to inspect, the area director provides a letter explaining the decision and reasons, and the complainant may request review by the regional administrator. If OSHA inspects but issues no citation, an employee may seek clarification from the area director and an informal review by the regional administrator.",
+    "expected_facts": [
+      "No-inspection decision explained in letter",
+      "Right to regional administrator review",
+      "No-citation case permits clarification and informal review"
+    ],
+    "source_hint": "Right to Information if No Inspection is Conducted or No Citation Issued"
+  },
+  {
+    "id": "O09",
+    "answerability": "answerable",
+    "source_document": "OSHA3021.pdf",
+    "test_type": "service_distinction",
+    "question": "How does OSHA’s On-Site Consultation Program for small and medium-sized businesses differ from an enforcement inspection?",
+    "expected_answer": "The consultation program offers no-cost, confidential safety and health advice, prioritizing high-hazard worksites. It is separate from enforcement and does not itself result in citations or penalties.",
+    "expected_facts": [
+      "No-cost and confidential advice",
+      "Separate from enforcement",
+      "Consultation itself does not result in citations/penalties"
+    ],
+    "source_hint": "No-Cost On-Site Safety and Health Consultation Services"
+  },
+  {
+    "id": "A02",
+    "answerability": "partial",
+    "source_document": "multiple",
+    "test_type": "partial_abstention",
+    "question": "What is the purpose of NASA technical performance measures, and what exact internal TPM threshold did our company approve for its October 2026 prototype?",
+    "expected_answer": "Explain that TPMs compare measured technical parameters to anticipated values to monitor progress and detect deficiencies. Explicitly say the company’s private October 2026 prototype threshold is not available in the indexed documents; do not invent a number.",
+    "expected_facts": [
+      "Correct TPM purpose",
+      "Explicit evidence gap for internal company-specific threshold",
+      "No invented threshold"
+    ],
+    "source_hint": "NASA Appendix B; private company data absent"
+  },
+  {
+    "id": "A03",
+    "answerability": "unanswerable",
+    "source_document": "multiple",
+    "test_type": "full_abstention",
+    "question": "According to our indexed documents, what was the exact inspection date and citation number for Acme Packaging’s Ohio plant in 2026?",
+    "expected_answer": "The indexed NASA, FMLA and general OSHA Workers’ Rights documents do not supply a specific 2026 inspection date or citation number for that named plant. State that the information is unavailable; do not fabricate a date or identifier.",
+    "expected_facts": [
+      "Acknowledge lack of source evidence",
+      "No invented inspection date",
+      "No invented citation number"
+    ],
+    "source_hint": "Absent from three general reference PDFs"
+  }
+]

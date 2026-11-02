@@ -1,0 +1,29 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "fastapi[standard]>=0.162.0",
+    "filelock>=3.32.7",
+    "httpx>=0.28.1",
+    "llama-index>=0.14.25",
+    "llama-index-embeddings-huggingface>=0.8.0",
+    "llama-index-llms-openrouter>=0.6.0",
+    "llama-index-readers-file>=0.7.0",
+    "pydantic>=2.14.1",
+    "pymupdf>=2.0",
+    "redis>=8.1.0",
+    "rq>=3.0.0",
+    "trulens>=2.16.0",
+    "trulens-apps-llamaindex>=2.16.0",
+    "trulens-providers-litellm>=2.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "deepeval>=4.3.2",
+    "ollama>=0.6.3",
+]

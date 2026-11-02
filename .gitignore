@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+indexes/
+indexes.lock
+storage/
+.env
+default.sqlite*
+.deepeval/
+node_modules/
+*.tsbuildinfo
+output/
+.playwright-cli/
+.env.*
+!.env.example
